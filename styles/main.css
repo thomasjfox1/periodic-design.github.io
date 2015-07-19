@@ -29,6 +29,6 @@ h3{
 }
 
 .center-logo svg g path,
-.center-logo svg g rect{
-  fill: #ffffff;
+.center-logo svg g line{
+  stroke: #ffffff;
 }

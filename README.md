@@ -1,7 +1,5 @@
-## Basic Website Template
+## Periodic Design's Webpage
 
-File structure created for ease of use when starting new static, front-end project.
-Perfect for a github.io portfolio project.
 
 ### Getting Started
 

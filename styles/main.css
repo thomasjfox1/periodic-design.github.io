@@ -55,6 +55,9 @@ h3{
     width: 600px;
     height: 600px;
   }
+  .logo-text h1{
+    font-size: 350%;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -62,6 +65,9 @@ h3{
   .center-logo svg, .center-logo {
     width: 600px;
     height: 600px;
+  }
+  .logo-text h1{
+    font-size: 350%;
   }
 }
 
@@ -71,6 +77,9 @@ h3{
     width: 600px;
     height: 600px;
   }
+  .logo-text h1{
+    font-size: 350%;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -79,6 +88,9 @@ h3{
     width: 400px;
     height: 400px;
   }
+  .logo-text h1{
+    font-size: 200%;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -86,5 +98,8 @@ h3{
   .center-logo svg, .center-logo {
     width: 400px;
     height: 400px;
+  }
+  .logo-text h1{
+    font-size: 200%;
   }
 }

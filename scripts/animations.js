@@ -54,8 +54,8 @@ window.setTimeout(function(){
   $('.center-logo').show(0).delay(2000);
   var first = new Vivus('center', {type : 'oneByOne', duration: 200});
   window.setTimeout(function(){
-    $( ".logo-text" ).fadeIn(2500, function() {
+    $( ".logo-text" ).fadeIn(3000, function() {
       // Animation complete
     });
-  }, 4000);
+  }, 3500);
 }, 2000);

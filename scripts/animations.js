@@ -1,9 +1,9 @@
 jQuery(document).ready(function(){
   var analogclock = new analogClock();
-  var colorbackground = new colorBackground();
+  // var colorbackground = new colorBackground();
   window.setInterval(function(){
     analogclock.run();
-    colorbackground.run();
+    // colorbackground.run();
     }, 1000);
 });
 
@@ -50,7 +50,12 @@ colorBackground.prototype.run = function() {
   $('body').css('background-color', "#" + c1 + c2 + c3);
 };
 
-window.setTimeout(function draw(){
-  $('.center-logo').show(0).delay(2000).show();
+window.setTimeout(function(){
+  $('.center-logo').show(0).delay(2000);
   var first = new Vivus('center', {type : 'oneByOne', duration: 200});
+  window.setTimeout(function(){
+    $( ".logo-text" ).fadeIn(2500, function() {
+      // Animation complete
+    });
+  }, 4000);
 }, 2000);

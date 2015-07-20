@@ -2,12 +2,12 @@
 
 $(function(){
   $('.center-logo').css('position','absolute');
-  $('.center-logo').css('top', Math.max(0, (($(window).height() - $('.center-logo').outerHeight()) / 2) + $(window).scrollTop()) + "px");
+  $('.center-logo').css('top', Math.max(0, (($(window).height() - $('.center-logo').outerHeight()) / 2 - 40) + $(window).scrollTop()) + "px");
   $('.center-logo').css('left', Math.max(0, (($(window).width() - $('.center-logo').outerWidth()) / 2) + $(window).scrollLeft()) + "px");
 
   $(window).resize(function() {
     $('.center-logo').css('position','absolute');
-    $('.center-logo').css('top', Math.max(0, (($(window).height() - $('.center-logo').outerHeight()) / 2) + $(window).scrollTop()) + "px");
+    $('.center-logo').css('top', Math.max(0, (($(window).height() - $('.center-logo').outerHeight()) / 2 - 40) + $(window).scrollTop()) + "px");
     $('.center-logo').css('left', Math.max(0, (($(window).width() - $('.center-logo').outerWidth()) / 2) + $(window).scrollLeft()) + "px");
   });
 });

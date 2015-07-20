@@ -27,9 +27,3 @@ $(function(){
       $('body').css('width', viewportWidth + 'px');
   });
 });
-
-function svg_animation(){
-  // new Vivus('center', {type: "oneByOne"});
-}
-
-svg_animation();

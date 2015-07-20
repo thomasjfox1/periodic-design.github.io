@@ -3,7 +3,7 @@ html, body {
   font-size: 100%;
   font-family: 'Lato', sans-serif;
   overflow: hidden;
-  background-color: #303E4D;
+  background-color: #fff;
   height: 100%;
   width: 100%;
 }
@@ -24,6 +24,10 @@ h3{
 }
 
 /* HOMEPAGE */
+.center-logo{
+  display: none;
+}
+
 .center-logo svg, .center-logo {
   width: 400px;
   height: 400px;
@@ -34,4 +38,74 @@ h3{
 .center-logo svg g path,
 .center-logo svg g line{
   stroke: #ffffff;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .center-logo svg, .center-logo {
+    width: 600px;
+    height: 600px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .center-logo svg, .center-logo {
+    width: 600px;
+    height: 600px;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .center-logo svg, .center-logo {
+    width: 600px;
+    height: 600px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .center-logo svg, .center-logo {
+    width: 400px;
+    height: 400px;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
 }

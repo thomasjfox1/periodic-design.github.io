@@ -74,11 +74,11 @@ h3{
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .center-logo svg, .center-logo {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   }
   .logo-text h1{
-    font-size: 350%;
+    font-size: 300%;
   }
 }
 
@@ -102,4 +102,19 @@ h3{
   .logo-text h1{
     font-size: 200%;
   }
+}
+
+.footer{
+  width: 100%;
+  color: #fff;
+  position: fixed;
+  bottom: 0px;
+  font-weight: 100;
+  text-align: right;
+  padding: 15px;
+}
+
+.footer p{
+  padding: 0px;
+  margin: 0px;
 }

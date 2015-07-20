@@ -58,4 +58,4 @@ window.setTimeout(function(){
       // Animation complete
     });
   }, 3500);
-}, 2000);
+}, 500);

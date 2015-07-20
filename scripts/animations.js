@@ -9,10 +9,6 @@ jQuery(document).ready(function(){
 
 function analogClock(){}
 analogClock.prototype.run = function() {
-	// var date = new Date();
-  // var second = date.getSeconds()* 6;
-  // var minute = date.getMinutes()* 6 + second / 60;
-  // var hour = ((date.getHours() % 12) / 12) * 360 + 90 + minute / 12;
   setInterval(function() {
     function r(el, deg) {
       el.setAttribute('transform', 'rotate('+ deg +' 250 250)');
@@ -56,6 +52,5 @@ colorBackground.prototype.run = function() {
 
 window.setTimeout(function draw(){
   $('.center-logo').show(0).delay(2000).show();
-  var first = new Vivus('center', {type : 'delayed', duration: 200});
-  var second = new Vivus('text', {type : 'delayed'});
+  var first = new Vivus('center', {type : 'oneByOne', duration: 200});
 }, 2000);

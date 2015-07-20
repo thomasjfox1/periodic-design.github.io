@@ -24,8 +24,11 @@ h3{
 }
 
 /* HOMEPAGE */
-.center-logo svg {
+.center-logo svg, .center-logo {
   width: 400px;
+  height: 400px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .center-logo svg g path,

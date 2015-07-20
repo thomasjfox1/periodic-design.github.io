@@ -24,6 +24,52 @@ h3{
 }
 
 /* HOMEPAGE */
+.side-menu{
+  position: fixed;
+  width: 55px;
+  height: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #babec2;
+  cursor: pointer;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.side-menu b{
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: fixed;
+  top: 50%;
+  left: -1.1em;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  font-size: 110%;
+  margin-top: -1em;
+  color: rgba(255,255,255,1);
+  width: 5em;
+  text-align: center;
+}
+
+.side-menu:hover{
+  background-color: #8299ac;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.wrap{
+  height: 100%;
+  width: 100%;
+}
+
 .center-logo{
   display: none;
 }
@@ -119,6 +165,7 @@ h3{
   }
 }
 
+/* Footer Stuff */
 .footer{
   width: 100%;
   color: #fff;

@@ -1,5 +1,6 @@
 ## Periodic Design's Webpage
 
+Homepage for Periodic Design where our different projects can be linked to.
 
 ### Getting Started
 
